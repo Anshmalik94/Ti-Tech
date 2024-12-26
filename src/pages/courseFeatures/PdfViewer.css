@@ -1,0 +1,70 @@
+.PdfViewer_pdfViewer__uxDeW {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Border around the viewer */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.PdfViewer_title__51LM0 {
+    font-size: 1.5rem; /* Title size */
+    margin-bottom: 20px; /* Spacing below the title */
+    color: #333; /* Title color */
+    text-align: center;
+}
+
+.ImageModule_imageModuleOuterContainer__y_9i_ {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images */
+}
+
+.ImageModule_imageModuleContainer__67Nxg {
+    max-width: 800px; /* Max width for the main image */
+    width: 100%; /* Full width */
+}
+
+.ImageModule_imageModule__3THyc {
+    position: relative; /* For positioning */
+}
+
+.scrollable-pdf {
+    max-height: 500px; /* Max height for the scrolling area */
+    overflow-y: auto; /* Vertical scrolling */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    border: 1px solid #ccc; /* Optional border for the scrolling area */
+    padding: 10px; /* Padding around the scrolling area */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.pdf-page {
+    margin-bottom: 20px; /* Spacing between pages */
+}
+
+.ImageModule_zoomImgFirst__CFdB_ {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.PdfViewer_buttons {
+    margin-top: 20px; /* Space above the buttons */
+    display: flex; /* Flexbox layout for buttons */
+    justify-content: center; /* Center buttons */
+}
+
+.btn-download-pdf {
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Font size */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    transition: background-color 0.3s ease; /* Transition effect */
+}
+
+.btn-download-pdf:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

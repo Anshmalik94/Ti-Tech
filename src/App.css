@@ -1,0 +1,58 @@
+/* App.css */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif; /* Set a default font for consistency */
+  background-color: #f4f4f4; /* Light background color for better contrast */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the root element covers the full height */
+}
+
+.App {
+  flex: 1; /* Allows this component to grow and fill available space */
+  display: flex; /* Flexbox for easier alignment of child components */
+  flex-direction: column; /* Stack children vertically */
+  padding: 20px; /* Adding some padding for better spacing */
+}
+
+/* Optional: Add some global styles for consistency across the app */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; /* Reset margins for headers */
+}
+
+p {
+  margin: 0; /* Reset margins for paragraphs */
+  line-height: 1.5; /* Improve readability */
+}
+
+a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #3498db; /* Set a primary color for links */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline links on hover for better UX */
+}
+
+/* Optional: Add a class for notifications */
+.notification {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #4caf50; /* Green background for success messages */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  transition: opacity 0.5s ease; /* Smooth transition for notifications */
+}
+
+/* Add styles for error notifications */
+.notification.error {
+  background-color: #e74c3c; /* Red background for error messages */
+}

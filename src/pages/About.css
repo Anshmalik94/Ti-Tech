@@ -1,0 +1,142 @@
+
+.about-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    
+}
+
+.team-section, .gallery-section {
+    margin: 20px 0;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    flex: 1 1 200px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-image {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gallery-image {
+    width: calc(25% - 10px); 
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+    .gallery-image {
+        width: calc(50% - 10px); 
+    }
+}
+
+.image-gallery {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #0066cc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+    text-align: justify;
+    margin: 20px auto;
+    padding: 15px 30px;
+    max-width: 800px;
+    background-color:  #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0066cc;
+}
+
+.leader {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #27ae60;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: block; 
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.leadership {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    color: #34495e;
+    text-align: justify;
+    margin: 25px auto;
+    padding: 20px 35px;
+    max-width: 900px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.leadership::first-letter {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #27ae60;
+}
+.gallery-image {
+    width: calc(25% - 10px);
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, border 0.3s ease; 
+    border: 3px solid transparent; 
+}
+
+.gallery-image:hover {
+    transform: scale(1.05); 
+    border: 3px solid #0066cc; 
+}
+
+@media (max-width: 768px) {
+    .gallery-image {
+        width: calc(50% - 10px);
+    }
+}

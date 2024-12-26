@@ -1,0 +1,31 @@
+/* Notification Styles */
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px 20px; /* Increased padding for a more comfortable appearance */
+    background-color: #4caf50; /* Green background */
+    color: #ffffff; /* White text color */
+    border-radius: 8px; /* Slightly larger border radius for smoother corners */
+    z-index: 1000; /* High z-index to ensure visibility */
+    animation: fadeInOut 3s ease forwards; /* Animation with ease effect */
+}
+
+/* Fade In and Out Animation */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0; /* Start hidden */
+        transform: translateY(-10px); /* Slightly slide in from the top */
+    }
+    20% {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Reset position */
+    }
+    80% {
+        opacity: 1; /* Stay visible */
+    }
+    100% {
+        opacity: 0; /* Fade out */
+        transform: translateY(10px); /* Slide out slightly down */
+    }
+}
